@@ -235,7 +235,7 @@
 // I observed 2 resets. First is 100 ms after initial connecting to USB lasting 65 ms and the second 90 ms later and also 65 ms.
 // On my old HP laptop I have different timing: First reset is 220 ms after initial connecting to USB lasting 300 ms and the second is missing.
 #define FAST_EXIT_NO_USB_MS       0 // Values below 120 are ignored. Effective timeout is 300 + FAST_EXIT_NO_USB_MS.
-#define AUTO_EXIT_MS           6000
+#define AUTO_EXIT_MS           1500
 
 /* ----------------------- Optional Timeout Config ------------------------ */
 
